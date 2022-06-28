@@ -1,0 +1,31 @@
+TERMINAL
+
+cls  = limpa terminal
+cd = navega entre as pastas
+dir = lista todas as pastas
+tab = autocompleta 
+mkdir + nomedapasta = cria pasta
+echo hello > hello.txt  (escreve hello dentro do arquivo hello.txt , caso hello.txt não exista ele cria também)
+del "nome da pasta" = deleta todos os arquivos dentro da pasta (*obs , nao exclui a pasta);
+rmdir "nome da pasta" /S /Q  = remove o diretório e todos os arquivos dentro dele .
+
+TERMINAL
+
+cls  = limpa terminal
+cd = navega entre as pastas
+dir = lista todas as pastas
+tab = autocompleta 
+mkdir + nomedapasta = cria pasta;
+*echo hello > hello.txt *  = (escreve hello dentro do arquivo hello.txt , caso hello.txt não exista ele cria também)
+del "nome da pasta" = deleta todos os arquivos dentro da pasta (*obs , nao exclui a pasta);
+rmdir "nome da pasta" /S /Q  = remove o diretório e todos os arquivos dentro dele .
+
+GIT TERMINAL
+
+openssl sha1 + nome do arquivo = imprime o conteúdo dentro do arquivo em sha1
+ssh-keygen -t ed25519 -C gabrielffguimaraes@gmail.com gera chave ssh
+eval $(ssh-agent -s) = vai gerar o pid rodando na maquina
+ssh-add chave.ext = adiciona a chave
+cat + nome do arquivo = exibe conteúdo dentro do arquivo
+git remote -v = lista repositórios ligados a pasta
+dir -a = lista todas as pastas inclusive os ocultos
