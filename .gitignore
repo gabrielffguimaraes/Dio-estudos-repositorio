@@ -1,3 +1,4 @@
-ts/.cache
-ts/dist
-ts/node_modules
+/ts/.cache
+/ts/dist
+/ts/node_modules
+/node_modules
