@@ -1,0 +1,3 @@
+tsc ".ts file" => faz a conversao do ts para o js
+tsc --init => adiciona o tsconfig.json ao projeto que por sua vez permite fazer muitas configurações (importante)
+npm install typescript => instala o typescript as dependencias
