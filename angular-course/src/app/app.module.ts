@@ -6,14 +6,11 @@ import { FormsModule } from "@angular/forms";
 import { AppRoutingModule } from "./app-routing.module";
 import { HttpClientModule } from "@angular/common/http";
 import { RouterModule } from "@angular/router";
-import { NotFoundComponent } from './shared/not-found/not-found.component';
-import { NavbarComponent } from './shared/navbar/navbar.component';
+import { CoreModule } from "./core/core.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NotFoundComponent,
-    NavbarComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +18,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
     AppRoutingModule,
     HttpClientModule,
     RouterModule,
+    CoreModule
   ],
   providers: [],
   exports: [
