@@ -9,7 +9,7 @@ header {
   background-position: center;
   position: relative;
 }
-header::after {
+.layer-blind {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -18,7 +18,45 @@ header::after {
   content:'';
   background:linear-gradient(to bottom,transparent,white);
 }
-
+.layer-content {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left:0;
+  top:0;
+  content:'';
+  z-index: 1;
+  text-align: center;
+}
+.layer-content h5 {
+  position: absolute;
+  bottom:100px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+/*
+.layer-content {
+  content:"Anime Store , sua loja de animes favorita";
+  position: absolute;
+  bottom:20%;
+  font-size: 40px;
+  font-weight: bolder;
+  left:0;
+  width:100%;
+  z-index: 2;
+  height: 50px;
+  text-align: center;
+}*/
 header img{
   height: 100%;
+}
+
+header h5 {
+  position: absolute;
+  bottom:20%;
+}
+.coral {
+  color:coral;
 }

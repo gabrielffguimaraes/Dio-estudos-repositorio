@@ -1,3 +1,14 @@
 .navbar {
   border-bottom: 1px solid #E5E9EF;
 }
+.navbar-brand-icon {
+  width: 27px;
+}
+.navbar-brand-icon i {
+  position: absolute;
+  top: 10px;
+  font-size: 21px;
+}
+.navbar-brand {
+  display: flex;
+}

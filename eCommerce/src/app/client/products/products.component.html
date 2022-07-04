@@ -1,1 +1,75 @@
-
+<div class="product__container">
+  <div class="product__left">
+    <ul class="list-group pb-0">
+      <li class="list-group-item ">
+        <strong>Categoria</strong>
+      </li>
+    </ul>
+    <ul class="list-group pt-0">
+      <li class="list-group-item ">
+        <span>Camisa</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>Camisetas</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>Acessórios</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>Pulseiras</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>Brindes</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+    </ul>
+    <ul class="list-group pb-0">
+      <li class="list-group-item">
+        <strong>Animes</strong>
+      </li>
+    </ul>
+    <ul class="list-group pt-0">
+      <li class="list-group-item">
+        <span>Camisa</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>Death note</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>Dragon brall Z</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>Naruto</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+      <li class="list-group-item">
+        <span>One piece</span>
+        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+      </li>
+    </ul>
+  </div>
+  <div class="product__right">
+    <div class="product__list">
+      <div class="product__item" *ngFor="let product of products | async">
+        <div class="card" style="width: 18rem;">
+          <img src="{{product.photo}}" class="card-img-top" alt="product picture">
+          <div class="card-body">
+            <p class="card-title mb-1">{{product.description}}</p>
+            <h5 class="card-text">{{product.price | currency:'BRL'}}</h5>
+            <a href="#" class="btn btn-primary">
+              <i class="bi bi-cart-plus"></i>
+              Comprar
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
