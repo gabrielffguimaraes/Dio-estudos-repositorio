@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="65a26104-77f1-4e99-a770-7de81180c788" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/arrays/ConteudoArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/classes/ComparatorCor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/classes/ComparatorIdade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/classes/ComparatorNomeIdadeCor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/classes/Gato.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/exercicios/CalculoMedia.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/exercicios/CriminosoOuInocente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/workspace/com/workspace/br/exercicios/Temperature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/arrays/ConteudoArrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/classes/ComparatorCor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/classes/ComparatorIdade.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/classes/ComparatorNomeIdadeCor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/classes/Gato.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/exercicios/CalculoMedia.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/workspace/br/exercicios/CriminosoOuInocente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="65a26104-77f1-4e99-a770-7de81180c788" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
