@@ -61,6 +61,6 @@ public class Serie implements Comparable<Serie> {
 
     @Override
     public int compareTo(Serie e) {
-        return this.getTempoEpisodio().compareTo(e.getTempoEpisodio());
+        return this.getGenero().compareTo(e.getGenero());
     }
 }
