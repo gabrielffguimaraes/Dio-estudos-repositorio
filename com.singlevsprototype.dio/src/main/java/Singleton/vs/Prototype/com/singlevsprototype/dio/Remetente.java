@@ -1,18 +1,27 @@
 package Singleton.vs.Prototype.com.singlevsprototype.dio;
 
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
 @Scope("prototype")
+@ConfigurationProperties(prefix = "remetente")
 public class Remetente {
+
     private String remetente;
+
     private String email;
 
-    public Remetente() {}
-    public Remetente(String remetente, String email) {
-        this.remetente = remetente;
-        this.email = email;
+    private String mensagemPadrao;
+
+    public String getMensagemPadrao() {
+        return mensagemPadrao;
+    }
+
+    public void setMensagemPadrao(String mensagemPadrao) {
+        this.mensagemPadrao = mensagemPadrao;
     }
 
     public String getRemetente() {
@@ -34,8 +43,9 @@ public class Remetente {
     @Override
     public String toString() {
         return "{" +
-                "remetente:'" + remetente + '\'' +
-                ", email:'" + email + '\'' +
+                "remetente : '" + remetente + '\'' +
+                ", email : '" + email + '\'' +
+                ", mensagemPadrao : '" + mensagemPadrao + '\'' +
                 '}';
     }
 }
