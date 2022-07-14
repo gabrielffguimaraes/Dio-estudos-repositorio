@@ -1,0 +1,27 @@
+
+security:
+  config:
+    prefix: Bearer
+    key: SECRET_KEY
+    expiration: 3600000
+
+spring:
+  #  h2:
+  #    console:
+  #      enable: true
+  #      path: h2
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:db
+    username: sa
+    password: sa
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    database-plataform: org.hibernate.dialect.H2Dialect
+
+#  security:
+#    user:
+#      name: "gabriel"
+#      password: "123"
+#      roles: "USERS"
