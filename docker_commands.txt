@@ -1,0 +1,13 @@
+postgres image url 
+
+docker run --name bootcamp -e POSTGRES_PASSWORD=123456 -d -p 5432:5432 postgres
+
+docker container ps -> ve todos os containers rodando
+docker container stop nome_do_container -> para o container selecionado
+docker container ps -a -> ve todos os containers rodando ou parados , no caso existentes .
+docker container start nome_do_container -> inicia um container 
+docker container logs nome_do_container -> ve todos os logs do container selecionado.
+docker container inspect nome_do_container -> ve todos os dados sobre aquele container.
+docker container stats -> ve quanto de memoria os containers estão utilizando da memoria do computador e processamento .
+docker image ls -> lista todas as images que o docker criou .
+docker image rm nome_do_container -> remove a imagem do docker .

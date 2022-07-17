@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0e232ca-51e7-4ecb-8952-dea0a4eff8f2" name="Changes" comment="" />
+    <list default="true" id="b0e232ca-51e7-4ecb-8952-dea0a4eff8f2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/controller/ClienteRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/model/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/model/Endereco.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/model/EnderecoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/service/ViaCepService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/java/com/dio/desafio/designpatter/service/ipml/ClienteServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desafio.designpatter/src/test/java/com/dio/desafio/designpatter/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/freteApi" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657131656641</updated>
       <workItem from="1657131656643" duration="7000" />
+      <workItem from="1658045485373" duration="2000" />
     </task>
     <servers />
   </component>
