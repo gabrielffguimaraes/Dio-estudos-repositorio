@@ -1,19 +1,21 @@
 package org.gabrielffguimaraes.model;
 
-import org.gabrielffguimaraes.interfaces.IFuel;
+import org.gabrielffguimaraes.interfaces.ICar;
 
-public class Car {
-    private Fuel fuel;
+import java.util.Map;
 
-    public Fuel getFuel() {
-        return fuel;
+public class Car implements ICar {
+    public Car(Map<String, Fuel> fuels) {
+        this.fuels = fuels;
     }
 
-    public void setFuel(Fuel fuel) {
-        this.fuel = fuel;
+    Map<String, Fuel> fuels;
+
+    public Map<String, Fuel> getFuels() {
+        return fuels;
     }
 
-    public Car(Fuel fuel) {
-        this.fuel = fuel;
+    public void setFuels(Map<String, Fuel> fuels) {
+        this.fuels = fuels;
     }
 }

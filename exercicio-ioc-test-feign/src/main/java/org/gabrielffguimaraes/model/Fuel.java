@@ -29,13 +29,14 @@ abstract public class Fuel implements IFuel {
         this.limit = limit;
     }
 
-    public void fill(double money) throws FullReservatoryException {
+    public boolean fill(double money) throws FullReservatoryException {
         double fuel = money / this.price;
         this.reservatory += fuel;
         if(this.reservatory > this.limit) {
             this.reservatory = this.limit;
             throw new FullReservatoryException("reservatory is in limit .");
         };
+        return true;
     }
 
     public double getPrice() {
@@ -76,5 +77,16 @@ abstract public class Fuel implements IFuel {
 
     public void setLimit(double limit) {
         this.limit = limit;
+    }
+
+    @Override
+    public String toString() {
+        return "Fuel{" +
+                "price=" + price +
+                ", description='" + description + '\'' +
+                ", availablePlaces=" + availablePlaces +
+                ", reservatory=" + reservatory +
+                ", limit=" + limit +
+                '}';
     }
 }

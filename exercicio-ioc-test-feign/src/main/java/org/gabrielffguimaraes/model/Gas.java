@@ -4,6 +4,7 @@ package org.gabrielffguimaraes.model;
 import org.gabrielffguimaraes.exceptions.FullReservatoryException;
 import org.gabrielffguimaraes.interfaces.IFuel;
 
+
 public class Gas extends Fuel {
     public Gas() {
         super(5.2 ,
