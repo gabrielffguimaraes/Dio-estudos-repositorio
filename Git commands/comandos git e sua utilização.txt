@@ -9,6 +9,7 @@ echo hello > hello.txt  (escreve hello dentro do arquivo hello.txt , caso hello.
 del "nome da pasta" = deleta todos os arquivos dentro da pasta (*obs , nao exclui a pasta);
 rmdir "nome da pasta" /S /Q  = remove o diretório e todos os arquivos dentro dele .
 
+
 TERMINAL
 
 cls  = limpa terminal
@@ -29,3 +30,4 @@ ssh-add chave.ext = adiciona a chave
 cat + nome do arquivo = exibe conteúdo dentro do arquivo
 git remote -v = lista repositórios ligados a pasta
 dir -a = lista todas as pastas inclusive os ocultos
+git rm --cached nomedapasta  = transforma uma pasta git em uma pasta normal.
