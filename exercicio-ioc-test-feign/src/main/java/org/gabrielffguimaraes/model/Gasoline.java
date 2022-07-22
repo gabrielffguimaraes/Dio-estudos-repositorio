@@ -12,9 +12,13 @@ public class Gasoline extends Fuel {
                70);
     }
 
-    public void fuelInfo() {
-        System.out.println("## Gasoline ##");
-        System.out.println("Reservatory : "+this.getReservatory());
-        System.out.println("Limit : "+this.getLimit()+" liters .");
+    public String fuelInfo() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("## Gasoline ## |");
+        sb.append(String.format(" Reservatory : %.2f",this.getReservatory()));
+        sb.append(" Limit : "+this.getLimit()+" liters .");
+
+        return sb.toString();
     }
 }

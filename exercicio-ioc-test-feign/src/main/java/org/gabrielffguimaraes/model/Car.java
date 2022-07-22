@@ -4,7 +4,7 @@ import org.gabrielffguimaraes.interfaces.ICar;
 
 import java.util.Map;
 
-public class Car implements ICar {
+abstract public class Car implements ICar {
     public Car(Map<String, Fuel> fuels) {
         this.fuels = fuels;
     }
@@ -18,4 +18,6 @@ public class Car implements ICar {
     public void setFuels(Map<String, Fuel> fuels) {
         this.fuels = fuels;
     }
+
+
 }
