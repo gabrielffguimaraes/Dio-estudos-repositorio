@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ede405f-982c-4c61-9efc-94c543dec082" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/interfaces/ICar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/model/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/model/Fuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/model/Fuel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/model/Gas.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/src/main/java/org/gabrielffguimaraes/model/Gas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/model/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/model/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/model/Fuel.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/model/Fuel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/model/Gas.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercicio-ioc-test-feign/target/classes/org/gabrielffguimaraes/model/Gas.class" afterDir="false" />
-    </list>
+    <list default="true" id="4ede405f-982c-4c61-9efc-94c543dec082" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,17 +13,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2CEwsl3Di7Rx6nH7Wdv6BqxsRgh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
