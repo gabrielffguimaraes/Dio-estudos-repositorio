@@ -1,30 +1,19 @@
 package org.gabrielffguimaraes;
 
-import org.gabrielffguimaraes.exceptions.FullReservatoryException;
-import org.gabrielffguimaraes.interfaces.ICar;
-import org.gabrielffguimaraes.model.*;
-
-import java.util.HashMap;
-import java.util.Map;
-
-import static javax.swing.UIManager.put;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * Hello world!
+ * Ioc , Feign , Tests
  *
  */
+@SpringBootApplication
+@EnableFeignClients
 public class App 
 {
     public static void main( String[] args )
     {
-        Car bumblebee = new FordFiesta();
-        Fuel etanol = new Gas();
-        try {
-            bumblebee.getFuels().get("gas").fill(80);
-            bumblebee.getFuels().get("gas").fuelInfo();
-        } catch (FullReservatoryException ex) {
-            System.out.println(ex.getMessage());
-            ex.printStackTrace();
-        }
+        SpringApplication.run(App.class);
     }
 }

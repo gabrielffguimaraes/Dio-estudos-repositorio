@@ -1,10 +1,5 @@
 package org.gabrielffguimaraes.model;
 
-
-import org.gabrielffguimaraes.exceptions.FullReservatoryException;
-import org.gabrielffguimaraes.interfaces.IFuel;
-
-
 public class Gas extends Fuel {
     public Gas() {
         super(5.2 ,
@@ -14,9 +9,13 @@ public class Gas extends Fuel {
                 18);
     }
 
-    public void fuelInfo() {
-        System.out.println("## Gas ##");
-        System.out.println("Reservatory : "+this.getReservatory());
-        System.out.println("Limit : "+this.getLimit()+" m3 .");
+    public String fuelInfo() {
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("## Gas ## |");
+        sb.append(String.format(" Reservatory : %.2f",this.getReservatory()));
+        sb.append(" Limit : "+this.getLimit()+" m3 .");
+
+        return sb.toString();
     }
 }
